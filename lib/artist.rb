@@ -1,5 +1,6 @@
 class Artist
   attr_accessor :name
+  # long form of attr_reader :songs
 
   @@songs = 0
 
@@ -21,10 +22,9 @@ class Artist
     @@song_count +=1
   end
 
-  # long form of attr_reader :songs
-  # def songs
-    # @songs 
-  # end
+  def songs
+    @songs 
+  end
 
   def self.song_count
     @@song_count
