@@ -1,6 +1,6 @@
 class Artist
   attr_accessor :name
-  # long form of attr_reader :songs
+  # short form of attr_reader :songs
 
   @@songs = 0
 
